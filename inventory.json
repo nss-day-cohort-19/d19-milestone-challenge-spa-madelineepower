@@ -1,0 +1,52 @@
+{
+  "cars": [
+    {
+      "image": "images/chevy-2.jpg",
+      "make": "Chevrolet",
+      "model": "Bel Air",
+      "year": "1957",
+      "price": "$45,999",
+      "description": "This is a beautifully preserved icon of the american road. The car wears its original color. This runs and drives like new."
+    },
+    {
+      "image": "images/bus-2.jpg",
+      "make": "Volkswagen",
+      "model": "Bus",
+      "year": "1970",
+      "price": "$23,545",
+      "description": "Great condition and lots of spunk."
+    },
+    {
+      "image": "images/ford.jpg",
+      "make": "Ford",
+      "model": "Mustang Convertible",
+      "year": "1965",
+      "price": "$25,999",
+      "description": "A classic 1965 Ford Mustang is always alluring, but this one has all the right touches to standout in all the best ways. It's the perfect way to cruise this American icon in distinction and comfort."
+    },
+    {
+      "image": "images/morris.jpg",
+      "make": "Morris",
+      "model": "Minor",
+      "year": "1961",
+      "price": "$18,000",
+      "description": "Completely restored exterior front to back bumper.Interior completely redone from headliner to carpets. Tires upgraded from bias to radial. Must see to appreciate."
+    },
+    {
+      "image": "images/beetle.jpg",
+      "make": "Volkswagen",
+      "model": "Beetle",
+      "year": "1973",
+      "price": "$19,995",
+      "description": "Perhaps one of the most endeared car ever produced was the VW Beetle. The Beetle was different, simple, reliable and fun. "
+    },
+    {
+      "image": "images/bentley.jpg",
+      "make": "Bentley",
+      "model": "S1",
+      "year": "1965",
+      "price": "$40,899",
+      "description": "A nice vehicle to have for collectors or for special events. Completely updated!"
+    }
+  ]
+}
