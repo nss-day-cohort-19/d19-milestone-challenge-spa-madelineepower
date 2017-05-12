@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 .thumbnail img {
   max-width: 395px;
   max-height: 267px;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.price {
+  background-color: rgb(144, 214, 204);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+h1 {
+  font-family: "Pacifico", sans-serif;
+}
+
+.border {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(144, 214, 204);
+  color: white;
 }

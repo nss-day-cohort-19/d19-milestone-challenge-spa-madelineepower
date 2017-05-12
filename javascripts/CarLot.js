@@ -29,22 +29,26 @@ var CarLot = (function (car) {
                               <div class="thumbnail">
                               <img src="${item.image}" width=100%>
                               <h3>${item.make} ${item.model}</h3>
+                              <button class="price">${item.price}</button>
                               <p>${item.year}</p>
-                              <p>${item.price}</p>
                               <p>${item.description}</p>
                             </div>
                             </div>`)
-
-            // newCarDiv.className = "col-md-4 col-sm-4 col-xs-4"
-            // newCarDiv.className = "personDiv";
-            // newCarDiv.innerHTML = eachCar;
-            // outputDiv.appendChild(newCarDiv);
           });
+          var carEl = document.getElementsByClassName("thumbnail");
+          for (i = 0; i < carEl.length; i++) {
+              carEl.item(i).addEventListener("click", function (event) {
+              var targetDiv = event.target.closest(".thumbnail");
+              console.log(targetDiv);
+              activateEvents(targetDiv);
+              CarLot.highlight(targetDiv);
+            });
         };
+      }
 
-        // car.getInventory = function (inventory) {
-        //   return inventory
-        // };
+        car.getInventory = function (inventory) {
+          return inventory
+        };
 
 return car
 })(CarLot || {});
